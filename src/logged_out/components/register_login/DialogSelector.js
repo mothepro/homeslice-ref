@@ -5,6 +5,7 @@ import TermsOfServiceDialog from "./TermsOfServiceDialog";
 import LoginDialog from "./LoginDialog";
 import ChangePasswordDialog from "./ChangePasswordDialog";
 import ModalBackdrop from "../../../shared/components/ModalBackdrop";
+import DemoDialog from "./DemoDialog";
 
 function DialogSelector(props) {
   const {
@@ -45,6 +46,10 @@ function DialogSelector(props) {
             setStatus={setLoginStatus}
             openChangePasswordDialog={openChangePasswordDialog}
           />
+        );
+      case "demo":
+        return (
+          <DemoDialog onClose={_onClose} />
         );
       case "changePassword":
         return (

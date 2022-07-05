@@ -65,22 +65,6 @@ function RegisterDialog(props) {
     registerTermsCheckbox,
   ]);
 
-  return <FormDialog
-    loading={isLoading}
-    onClose={onClose}
-    open
-    headline="Calculator Demo"
-    onFormSubmit={(e) => {
-      e.preventDefault();
-      register();
-    }}
-    hideBackdrop
-    hasCloseIcon
-    style={{ minWidth: '609px !important' }}
-    content={
-      <iframe className={classes.youtube} width="560" height="315" src="https://www.youtube.com/embed/xNxBsLZv5PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    } />
-
   return (
     <FormDialog
       loading={isLoading}

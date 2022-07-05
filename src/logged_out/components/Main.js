@@ -55,6 +55,11 @@ function Main(props) {
     setIsMobileDrawerOpen(false);
   }, [setDialogOpen, setIsMobileDrawerOpen]);
 
+  const openDemoDialog = useCallback(() => {
+    setDialogOpen("demo");
+    setIsMobileDrawerOpen(false);
+  }, [setDialogOpen, setIsMobileDrawerOpen]);
+
   const openTermsDialog = useCallback(() => {
     setDialogOpen("termsOfService");
   }, [setDialogOpen]);
@@ -110,7 +115,7 @@ function Main(props) {
         dialogOpen={dialogOpen}
         onClose={closeDialog}
         openTermsDialog={openTermsDialog}
-        openRegisterDialog={openRegisterDialog}
+        openDemoDialog={openDemoDialog}
         openChangePasswordDialog={openChangePasswordDialog}
       />
       <CookieRulesDialog
@@ -121,7 +126,7 @@ function Main(props) {
         selectedTab={selectedTab}
         selectTab={setSelectedTab}
         openLoginDialog={openLoginDialog}
-        openRegisterDialog={openRegisterDialog}
+        openDemoDialog={openDemoDialog}
         mobileDrawerOpen={isMobileDrawerOpen}
         handleMobileDrawerOpen={handleMobileDrawerOpen}
         handleMobileDrawerClose={handleMobileDrawerClose}

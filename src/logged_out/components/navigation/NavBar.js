@@ -44,7 +44,7 @@ const styles = theme => ({
 function NavBar(props) {
   const {
     classes,
-    openRegisterDialog,
+    openDemoDialog,
     openLoginDialog,
     handleMobileDrawerOpen,
     handleMobileDrawerClose,
@@ -59,7 +59,7 @@ function NavBar(props) {
     },
     {
       name: "View Demo",
-      onClick: openRegisterDialog,
+      onClick: openDemoDialog,
       icon: <HowToRegIcon className="text-white" />
     },
     {
@@ -161,7 +161,7 @@ NavBar.propTypes = {
   handleMobileDrawerClose: PropTypes.func,
   mobileDrawerOpen: PropTypes.bool,
   selectedTab: PropTypes.string,
-  openRegisterDialog: PropTypes.func.isRequired,
+  openDemoDialog: PropTypes.func.isRequired,
   openLoginDialog: PropTypes.func.isRequired
 };
 
