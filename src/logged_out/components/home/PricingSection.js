@@ -152,7 +152,7 @@ function PricingSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          href="mailto:outtathisworldcrypto@gmail.com?subject=Plan: Premium"
                         >
                           Get Started
                         </Button>

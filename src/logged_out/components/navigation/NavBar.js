@@ -53,11 +53,6 @@ function NavBar(props) {
   } = props;
   const menuItems = [
     {
-      link: "/",
-      name: "Home",
-      icon: <HomeIcon className="text-white" />
-    },
-    {
       name: "View Demo",
       onClick: openDemoDialog,
       icon: <HowToRegIcon className="text-white" />

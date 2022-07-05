@@ -7,7 +7,7 @@ import Blog from "./blog/Blog";
 import BlogPost from "./blog/BlogPost";
 
 function Routing(props) {
-  const { blogPosts, selectBlog, selectHome } = props;
+  const { blogPosts, selectBlog, selectHome, openRegisterDialog } = props;
   return (
     <Switch>
       {blogPosts.map(post => (
