@@ -155,14 +155,14 @@ function HeadSection(props) {
                       </div>
                     </Box>
                   </Grid>
-                  <Hidden smDown>
+                  {/* <Hidden mDown> */}
                     <Grid item md={6}>
                       <img
                         src="diagram.png"
                         className={classes.image}
                         alt="Hero" />
                     </Grid>
-                  </Hidden>
+                  {/* </Hidden> */}
                 </Box>
               </div>
             </Card>

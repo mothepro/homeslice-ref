@@ -6,7 +6,8 @@ import {
   Typography,
   isWidthUp,
   withWidth,
-  withStyles
+  withStyles,
+  Button
 } from "@material-ui/core";
 import PriceCard from "./PriceCard";
 import calculateSpacing from "./calculateSpacing";
@@ -42,7 +43,20 @@ const styles = theme => ({
       marginRight: "auto",
       maxWidth: 360
     }
-  }
+  },
+  extraLargeButton: {
+    marginTop: '5em',
+    paddingTop: theme.spacing(1.5),
+    paddingBottom: theme.spacing(1.5),
+    [theme.breakpoints.up("xs")]: {
+      paddingTop: theme.spacing(1),
+      paddingBottom: theme.spacing(1)
+    },
+    [theme.breakpoints.up("lg")]: {
+      paddingTop: theme.spacing(2),
+      paddingBottom: theme.spacing(2)
+    }
+  },
 });
 
 function PricingSection(props) {
@@ -132,6 +146,16 @@ function PricingSection(props) {
             />
           </Grid>
         </Grid>
+                        <Button
+                          variant="contained"
+                          color="secondary"
+                          fullWidth
+                          className={classes.extraLargeButton}
+                          classes={{ label: classes.extraLargeButtonLabel }}
+                          href="https://github.com/dunky11/react-saas-template"
+                        >
+                          Get Started
+                        </Button>
       </div>
     </div>
   );
