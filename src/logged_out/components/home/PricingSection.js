@@ -61,28 +61,32 @@ function PricingSection(props) {
           <Grid
             item
             xs={12}
-            sm={6}
-            lg={3}
+            sm={12}
+            lg={4}
             className={classes.cardWrapper}
             data-aos="zoom-in-up"
           >
             <PriceCard
-              title="Starter"
+              title="Calculator"
               pricing={
                 <span>
-                  $14.99
-                  <Typography display="inline"> / month</Typography>
+                  $1
+                  <Typography display="inline"> / agent / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[
+                'Unlimited agents',
+                'Unlimited transactions',
+                'Customizable commission model per agent',
+              ]}
             />
           </Grid>
           <Grid
             item
             className={classes.cardWrapperHighlighted}
             xs={12}
-            sm={6}
-            lg={3}
+            sm={12}
+            lg={4}
             data-aos="zoom-in-up"
             data-aos-delay="200"
           >
@@ -91,19 +95,24 @@ function PricingSection(props) {
               title="Premium"
               pricing={
                 <span>
-                  $29.99
-                  <Typography display="inline"> / month</Typography>
+                  $9
+                  <Typography display="inline"> / agent / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[
+                'Calculator and...',
+                <>Integration with BrokerSumo</>,
+                'Auto import transactions + agents',
+                'Export to Excel, CSV or Sheets',
+              ]}
             />
           </Grid>
           <Grid
             item
             className={classes.cardWrapper}
             xs={12}
-            sm={6}
-            lg={3}
+            sm={12}
+            lg={4}
             data-aos="zoom-in-up"
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
@@ -111,31 +120,15 @@ function PricingSection(props) {
               title="Business"
               pricing={
                 <span>
-                  $49.99
-                  <Typography display="inline"> / month</Typography>
+                  $49
+                  <Typography display="inline"> / agent / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
-            />
-          </Grid>
-          <Grid
-            item
-            className={classes.cardWrapper}
-            xs={12}
-            sm={6}
-            lg={3}
-            data-aos="zoom-in-up"
-            data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
-          >
-            <PriceCard
-              title="Tycoon"
-              pricing={
-                <span>
-                  $99.99
-                  <Typography display="inline"> / month</Typography>
-                </span>
-              }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[
+                'Premium and...',
+                'Import commission model from SkySlope',
+                'Auto export totals to Stripe',
+              ]}
             />
           </Grid>
         </Grid>
