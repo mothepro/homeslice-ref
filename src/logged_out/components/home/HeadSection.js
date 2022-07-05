@@ -128,8 +128,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building an SaaS app using
-                          Material-UI
+                          Integrations to boost your agents' effectiveness
                         </Typography>
                       </Box>
                       <div>
@@ -138,8 +137,9 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                            Managing your real estate agents and their referrals can be a headache.
+                            Automatically optimize &amp; calculate their commission
+                            rates ensuring get their fair share.
                           </Typography>
                         </Box>
                         <Button
@@ -150,14 +150,17 @@ function HeadSection(props) {
                           classes={{ label: classes.extraLargeButtonLabel }}
                           href="https://github.com/dunky11/react-saas-template"
                         >
-                          Download from GitHub
+                          Get Started
                         </Button>
                       </div>
                     </Box>
                   </Grid>
                   <Hidden smDown>
                     <Grid item md={6}>
-      <iframe className={classes.youtube} width="560" height="315" src="https://www.youtube.com/embed/xNxBsLZv5PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <img
+                        src="diagram.png"
+                        className={classes.image}
+                        alt="Hero" />
                     </Grid>
                   </Hidden>
                 </Box>
