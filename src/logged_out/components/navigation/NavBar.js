@@ -16,6 +16,7 @@ import HowToRegIcon from "@material-ui/icons/HowToReg";
 import LockOpenIcon from "@material-ui/icons/LockOpen";
 import BookIcon from "@material-ui/icons/Book";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
+import logo from '../../dummy_data/images/logo.png'
 
 const styles = theme => ({
   appBar: {
@@ -24,7 +25,8 @@ const styles = theme => ({
   },
   toolbar: {
     display: "flex",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+    backgroundColor: "#121212",
   },
   menuButtonText: {
     fontSize: theme.typography.body1.fontSize,
@@ -76,13 +78,21 @@ function NavBar(props) {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div>
+            <img
+              src={logo}
+              classes={classes.img}
+              alt="Logo"
+              width={46}
+              height={46}
+              style={{ verticalAlign: 'bottom' }}
+            />
             <Typography
               variant="h4"
               className={classes.brandText}
               display="inline"
               color="primary"
             >
-              Wa
+              {' '}Home
             </Typography>
             <Typography
               variant="h4"
@@ -90,7 +100,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              Ver
+              Slice
             </Typography>
           </div>
           <div>
