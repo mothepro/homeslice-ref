@@ -44,6 +44,168 @@
     </title>
   </head>
   <body>
+    <style>
+      .wrapper {
+  position: relative;
+  width: 168px;
+  height: 84px;
+  transform: rotateY(20deg) skew(5deg);
+  transform-style: preserve-3d;
+  background-image: url("texas.png");
+  background-size: 0;
+  background-position: -200% -200%;
+  margin-top: 1em;
+}
+.wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3.5px;
+  height: 168px;
+  background: gold;
+  left: 3px;
+}
+
+.s {
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 6px;
+  width: 7px;
+  height: 100%;
+  transform-origin: 0 0;
+  background-repeat: no-repeat;
+  background-size: 168px 100%;
+  transform: translateZ(0.0001px) rotateY(14.1176470588deg);
+  background-image: inherit;
+}
+
+.s1 {
+  background-position-x: -7px;
+  animation: w 1s 0.08s ease-in-out infinite alternate;
+}
+
+.s2 {
+  background-position-x: -14px;
+  animation: w 1s 0.16s ease-in-out infinite alternate;
+}
+
+.s3 {
+  background-position-x: -21px;
+  animation: w 1s 0.24s ease-in-out infinite alternate;
+}
+
+.s4 {
+  background-position-x: -28px;
+  animation: w 1s 0.32s ease-in-out infinite alternate;
+}
+
+.s5 {
+  background-position-x: -35px;
+  animation: w 1s 0.4s ease-in-out infinite alternate;
+}
+
+.s6 {
+  background-position-x: -42px;
+  animation: w 1s 0.48s ease-in-out infinite alternate;
+}
+
+.s7 {
+  background-position-x: -49px;
+  animation: w 1s 0.56s ease-in-out infinite alternate;
+}
+
+.s8 {
+  background-position-x: -56px;
+  animation: w 1s 0.64s ease-in-out infinite alternate;
+}
+
+.s9 {
+  background-position-x: -63px;
+  animation: w 1s 0.72s ease-in-out infinite alternate;
+}
+
+.s10 {
+  background-position-x: -70px;
+  animation: w 1s 0.8s ease-in-out infinite alternate;
+}
+
+.s11 {
+  background-position-x: -77px;
+  animation: w 1s 0.88s ease-in-out infinite alternate;
+}
+
+.s12 {
+  background-position-x: -84px;
+  animation: w 1s 0.96s ease-in-out infinite alternate;
+}
+
+.s13 {
+  background-position-x: -91px;
+  animation: w 1s 1.04s ease-in-out infinite alternate;
+}
+
+.s14 {
+  background-position-x: -98px;
+  animation: w 1s 1.12s ease-in-out infinite alternate;
+}
+
+.s15 {
+  background-position-x: -105px;
+  animation: w 1s 1.2s ease-in-out infinite alternate;
+}
+
+.s16 {
+  background-position-x: -112px;
+  animation: w 1s 1.28s ease-in-out infinite alternate;
+}
+
+.s17 {
+  background-position-x: -119px;
+  animation: w 1s 1.36s ease-in-out infinite alternate;
+}
+
+.s18 {
+  background-position-x: -126px;
+  animation: w 1s 1.44s ease-in-out infinite alternate;
+}
+
+.s19 {
+  background-position-x: -133px;
+  animation: w 1s 1.52s ease-in-out infinite alternate;
+}
+
+.s20 {
+  background-position-x: -140px;
+  animation: w 1s 1.6s ease-in-out infinite alternate;
+}
+
+.s21 {
+  background-position-x: -147px;
+  animation: w 1s 1.68s ease-in-out infinite alternate;
+}
+
+.s22 {
+  background-position-x: -154px;
+  animation: w 1s 1.76s ease-in-out infinite alternate;
+}
+
+.s23 {
+  background-position-x: -161px;
+  animation: w 1s 1.84s ease-in-out infinite alternate;
+}
+
+.s24 {
+  background-position-x: -168px;
+  animation: w 1s 1.92s ease-in-out infinite alternate;
+}
+
+@keyframes w {
+  to {
+    transform: translateZ(0.0001px) rotateY(-14.1176470588deg);
+  }
+}
+
+    </style>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>

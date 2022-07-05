@@ -226,8 +226,60 @@ function Footer(props) {
               About the Company
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+              Made in Austin, for Austin.
+
+<div class="wrapper">
+	<div class="s s0">
+ 	<div class="s s1">
+ 		<div class="s s2">
+ 			<div class="s s3">
+ 				<div class="s s4">
+ 					<div class="s s5">
+ 						<div class="s s6">
+ 							<div class="s s7">
+ 								<div class="s s8">
+ 									<div class="s s9">
+ 										<div class="s s10">
+ 											<div class="s s11">
+ 												<div class="s s12">
+ 													<div class="s s13">
+ 														<div class="s s14">
+ 															<div class="s s15">
+ 																<div class="s s16">
+ 																	<div class="s s17">
+ 																		<div class="s s18">
+ 																			<div class="s s19">
+ 																				<div class="s s20">
+ 																					<div class="s s21">
+ 																						<div class="s s22">
+ 																							<div class="s s23">
+ 																								<div class="s s24">
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
             </Typography>
             <Box display="none">
               {socialIcons.map((socialIcon, index) => (
