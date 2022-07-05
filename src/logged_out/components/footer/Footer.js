@@ -229,7 +229,7 @@ function Footer(props) {
               Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
               euismod convallis velit, eu auctor lacus vehicula sit amet.
             </Typography>
-            <Box display="flex">
+            <Box display="none">
               {socialIcons.map((socialIcon, index) => (
                 <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
                   <IconButton
