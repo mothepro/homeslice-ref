@@ -58,7 +58,7 @@ function NavBar(props) {
       icon: <HomeIcon className="text-white" />
     },
     {
-      name: "Register",
+      name: "View Demo",
       onClick: openRegisterDialog,
       icon: <HowToRegIcon className="text-white" />
     },
