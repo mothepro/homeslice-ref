@@ -78,11 +78,11 @@ const styles = theme => ({
 const infos = [
   {
     icon: <PhoneIcon />,
-    description: "+1 555 123456"
+    description: "+1 512 350 0628"
   },
   {
     icon: <MailIcon />,
-    description: "support@company.com"
+    description: "homeslicecrypto@gmail.com"
   }
 ];
 
@@ -166,7 +166,7 @@ function Footer(props) {
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
           <Grid item xs={12} md={6} lg={4}>
             <form>
-              <Box display="flex" flexDirection="column">
+              <Box display="none" flexDirection="column">
                 <Box mb={1}>
                   <TextField
                     variant="outlined"
@@ -223,9 +223,11 @@ function Footer(props) {
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
             <Typography variant="h6" paragraph className="text-white">
-              About the Company
+              About Us
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
+              We aim to improving real estate efficiency in this fast moving market.
+              <br/><br/>
               Made in Austin, for Austin.
 
 <div class="wrapper">
