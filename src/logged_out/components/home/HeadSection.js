@@ -75,6 +75,11 @@ const styles = theme => ({
     borderRadius: theme.shape.borderRadius,
     boxShadow: theme.shadows[4]
   },
+  youtube: {
+    verticalAlign: "middle",
+    borderRadius: theme.shape.borderRadius,
+    boxShadow: theme.shadows[4],
+  },
   container: {
     marginTop: theme.spacing(6),
     marginBottom: theme.spacing(12),
@@ -152,11 +157,7 @@ function HeadSection(props) {
                   </Grid>
                   <Hidden smDown>
                     <Grid item md={6}>
-                      <img
-                        src={headerImage}
-                        className={classes.image}
-                        alt="header example"
-                      />
+      <iframe className={classes.youtube} width="560" height="315" src="https://www.youtube.com/embed/xNxBsLZv5PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Grid>
                   </Hidden>
                 </Box>

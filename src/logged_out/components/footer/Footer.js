@@ -226,7 +226,7 @@ function Footer(props) {
               About Us
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              We aim to improving real estate efficiency in this fast moving market.
+              We aim to improving real estate broker's efficiency in this fast moving market.
               <br/><br/>
               Made in Austin, for Austin.
 
