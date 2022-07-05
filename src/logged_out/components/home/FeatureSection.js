@@ -18,84 +18,68 @@ const iconSize = 30;
 const features = [
   {
     color: "#00C853",
-    headline: "Feature 1",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    headline: "Commission",
+    text: 'Offer scalable incentives to your real estate agents',
     icon: <BuildIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
     color: "#6200EA",
-    headline: "Feature 2",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    headline: "Laissez-Faire",
+    text: "Implement once, and forget. Focus on your business, not your agents records",
     icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
   },
   {
     color: "#0091EA",
-    headline: "Feature 3",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
-    icon: <MeassageIcon style={{ fontSize: iconSize }} />,
+    headline: "Reports",
+    text: "Monthly Reports Detailing each agents impact",
+    icon: <BarChartIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
   },
   {
-    color: "#d50000",
-    headline: "Feature 4",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    color: "#db0100",
+    headline: "BrokerSumo",
+    text: "Integrate with the services you are already using",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200"
   },
   {
-    color: "#DD2C00",
-    headline: "Feature 5",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
-    icon: <BarChartIcon style={{ fontSize: iconSize }} />,
+    color: "#0872b6",
+    headline: "SkySlope",
+    text: "Integrate with the services you are already using",
+    icon: <ComputerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "0"
   },
   {
     color: "#64DD17",
-    headline: "Feature 6",
+    headline: "24 / 7 Support",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Mistakes happen, we will work with you to ensure your system is always up",
     icon: <HeadsetMicIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "200"
   },
   {
     color: "#304FFE",
-    headline: "Feature 7",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    headline: "Cloud",
+    text: 'Syncing with cloud storage allows your reports to be accessed anywhere',
     icon: <CloudIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
     color: "#C51162",
-    headline: "Feature 8",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    headline: "Secure",
+    text: "We make use of industry standards to ensure your data is never comprimised",
     icon: <CodeIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
-  },
-  {
-    color: "#00B8D4",
-    headline: "Feature 9",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
-    icon: <CancelIcon style={{ fontSize: iconSize }} />,
-    mdDelay: "400",
-    smDelay: "0"
   }
 ];
 
